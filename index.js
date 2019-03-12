@@ -2,9 +2,9 @@
 const axios = require('axios');
 const fs = require('fs');
 
-const __version__ = JSON.parse(fs.readFileSync('package.json')).version;
-const __author__ = JSON.parse(fs.readFileSync('package.json')).author;
-const __issues__ = JSON.parse(fs.readFileSync('package.json')).bugs.url;
+const __version__ = "1.0.2";
+const __author__ = "xDrixxyz";
+const __issues__ = "https://github.com/xDrixxyz/npmstandsfor/issues";
 
 if (process.argv.indexOf('--help') > -1 || process.argv.indexOf('-h') > -1) {
 	console.log(`npmstandsfor version ${__version__}`);
