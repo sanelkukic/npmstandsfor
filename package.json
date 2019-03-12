@@ -1,0 +1,30 @@
+{
+  "name": "npmstandsfor",
+  "version": "1.0.0",
+  "description": "A command-line app that gets a random saying from the official npm-expansions GitHub repository",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xDrixxyz/npmstandsfor.git"
+  },
+  "keywords": [
+    "npm",
+    "sayings",
+    "expansions"
+  ],
+  "author": "xDrixxyz",
+  "license": "MIT",
+  "bin": {
+    "npmstandsfor": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/xDrixxyz/npmstandsfor/issues"
+  },
+  "homepage": "https://github.com/xDrixxyz/npmstandsfor#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
