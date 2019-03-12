@@ -1,6 +1,6 @@
 {
   "name": "npmstandsfor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command-line app that gets a random saying from the official npm-expansions GitHub repository",
   "main": "index.js",
   "scripts": {
