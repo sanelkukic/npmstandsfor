@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 const axios = require('axios');
-const fs = require('fs');
 
-const __version__ = "1.0.2";
+const __version__ = "1.0.3";
 const __author__ = "xDrixxyz";
 const __issues__ = "https://github.com/xDrixxyz/npmstandsfor/issues";
 
